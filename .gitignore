@@ -1,0 +1,41 @@
+# Python и окружение
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+
+# Результаты сборки и локальные архивы
+/installer_kit/build/
+/installer_kit/dist/
+/installer_kit/Output/
+/Output/
+*.rar
+*.zip
+*.tmp
+*.log
+*.backup
+
+# Локальная история и отдельная копия upstream (файлы остаются на диске)
+/alt/
+/versions/
+/tgproxy/
+/installer_kit/Old/
+/installer_kit/installerOLD.iss
+/installer_kit/zapret.spec
+/installer_kit/zapret.spec.tmp
+
+# Личные домены и флаги; приложение создаёт пользовательские файлы
+/lists/*-user.txt
+/lists/exclude_backup.json
+/utils/*.enabled
+/config.json
+/work/
+/outputs/
+.DS_Store
+Thumbs.db
+# bin/*.exe, *.dll, *.sys и *.bin нужны приложению — не исключать.
+/utils/test results/
